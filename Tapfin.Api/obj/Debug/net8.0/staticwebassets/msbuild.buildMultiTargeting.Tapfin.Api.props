@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Tapfin.Api.props" />
+</Project>

@@ -1,0 +1,7 @@
+﻿
+/*----------- Create Entities for the first time-----------*/
+Scaffold-DbContext "Data Source=10.194.1.154;Initial Catalog=DB_Tapfin;User Id=Tapfin;Password=Tapfin@2024;Encrypt=false;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/Entities" -ContextDir "Models"
+
+
+/*-------- Update Entities ---------*/
+Scaffold-DbContext "Data Source=10.194.1.154;Initial Catalog=DB_Tapfin;User Id=Tapfin;Password=Tapfin@2024;Encrypt=false;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -OutputDir "Models/Entities" -ContextDir "Models" -Context TapfinDbContext -f

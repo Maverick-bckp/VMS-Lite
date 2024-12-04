@@ -1,0 +1,1555 @@
+[
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Accounts/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.DeleteUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Accounts/ForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.ForgotPasswordRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "LoginUser",
+    "RelativePath": "api/Accounts/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UserAuthRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "MailUser",
+    "RelativePath": "api/Accounts/Mail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mailBody",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "UserProfile",
+    "RelativePath": "api/Accounts/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "GetUserDetailsBySID",
+    "RelativePath": "api/Accounts/Profile/{SId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "SId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Accounts/Profile/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateUserDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Accounts/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.RegisterUserDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Accounts/Role/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateRoleDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AccountsController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Accounts/Role/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.AllocatedAtClientController",
+    "Method": "getAllDepartment",
+    "RelativePath": "api/AllocatedAtClient/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "getClientById",
+    "RelativePath": "api/Client/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "deleteClientAddress",
+    "RelativePath": "api/Client/Address/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "createClient",
+    "RelativePath": "api/Client/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateClientDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "deleteClient",
+    "RelativePath": "api/Client/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "getAllClient",
+    "RelativePath": "api/Client/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientRevenueController",
+    "Method": "getClientRevenueById",
+    "RelativePath": "api/Client/Revenue/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientRevenueController",
+    "Method": "createClientRevenue",
+    "RelativePath": "api/Client/Revenue/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.ClientRevenueDto\u002BCreateClientRevenueDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientRevenueController",
+    "Method": "deleteClientRevenue",
+    "RelativePath": "api/Client/Revenue/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientRevenueController",
+    "Method": "getAll",
+    "RelativePath": "api/Client/Revenue/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "clientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientRevenueController",
+    "Method": "updateClientRevenueDetails",
+    "RelativePath": "api/Client/Revenue/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.ClientRevenueDto\u002BUpdateClientRevenueDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ClientController",
+    "Method": "updateClient",
+    "RelativePath": "api/Client/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateClientDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "getById",
+    "RelativePath": "api/Country/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "createCountry",
+    "RelativePath": "api/Country/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateCountryDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "getCurrency",
+    "RelativePath": "api/Country/Currency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "deleteCountry",
+    "RelativePath": "api/Country/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "getAllCountry",
+    "RelativePath": "api/Country/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.CountryController",
+    "Method": "updateCountry",
+    "RelativePath": "api/Country/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateCountryDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.DepartmentController",
+    "Method": "getDepartmentById",
+    "RelativePath": "api/Department/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.DepartmentController",
+    "Method": "createDepartment",
+    "RelativePath": "api/Department/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateDepartmentDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.DepartmentController",
+    "Method": "deleteDepartment",
+    "RelativePath": "api/Department/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.DepartmentController",
+    "Method": "getAllDepartment",
+    "RelativePath": "api/Department/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.DepartmentController",
+    "Method": "updateDepartment",
+    "RelativePath": "api/Department/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateDepartmentDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "getById",
+    "RelativePath": "api/JobOrders/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "createJobOrder",
+    "RelativePath": "api/JobOrders/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateJobOrderDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "deleteJobOrder",
+    "RelativePath": "api/JobOrders/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "getAllJobOrders",
+    "RelativePath": "api/JobOrders/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "getAllJobOrderStatusTypes",
+    "RelativePath": "api/JobOrders/StatusTypes/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobOrdersController",
+    "Method": "updateJobOrder",
+    "RelativePath": "api/JobOrders/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateJobOrderDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "getById",
+    "RelativePath": "api/Jobs/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "createJob",
+    "RelativePath": "api/Jobs/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ServiceTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepartmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AllocatedAtClientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobDesc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobLocation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoOfPosition",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearsOfExperience",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpectedSalary",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Remarks",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobStatus",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Documents",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "deleteJob",
+    "RelativePath": "api/Jobs/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "getAllJobs",
+    "RelativePath": "api/Jobs/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "getAllJobStatusTypes",
+    "RelativePath": "api/Jobs/StatusTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.JobsController",
+    "Method": "updateJobDetails",
+    "RelativePath": "api/Jobs/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "DepartmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "AllocatedAtClientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobDesc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobLocation",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NoOfPosition",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearsOfExperience",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExpectedSalary",
+        "Type": "System.Nullable\u00601[[System.Double, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Remarks",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "JobStatus",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.RegionController",
+    "Method": "getById",
+    "RelativePath": "api/Region/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.RegionController",
+    "Method": "createRegion",
+    "RelativePath": "api/Region/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateRegionDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.RegionController",
+    "Method": "deleteRegion",
+    "RelativePath": "api/Region/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.RegionController",
+    "Method": "getAllRegion",
+    "RelativePath": "api/Region/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.RegionController",
+    "Method": "updateRegion",
+    "RelativePath": "api/Region/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateRegionDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.ServiceTypesController",
+    "Method": "getAllDepartment",
+    "RelativePath": "api/ServiceTypes/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "getById",
+    "RelativePath": "api/Vendor/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "deleteVendorAddress",
+    "RelativePath": "api/Vendor/Address/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorBillingController",
+    "Method": "getVendorBillingById",
+    "RelativePath": "api/Vendor/Billing/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorBillingController",
+    "Method": "createVendorBilling",
+    "RelativePath": "api/Vendor/Billing/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateVendorBillingDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorBillingController",
+    "Method": "deleteVendorBilling",
+    "RelativePath": "api/Vendor/Billing/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorBillingController",
+    "Method": "getAll",
+    "RelativePath": "api/Vendor/Billing/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorBillingController",
+    "Method": "updateVendorBillingDetails",
+    "RelativePath": "api/Vendor/Billing/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateVendorBillingDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "createVendor",
+    "RelativePath": "api/Vendor/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateVendorDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "deleteVendor",
+    "RelativePath": "api/Vendor/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "getAllVendor",
+    "RelativePath": "api/Vendor/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.VendorController",
+    "Method": "updateVendor",
+    "RelativePath": "api/Vendor/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateVendorDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "getWorkerDetailsById",
+    "RelativePath": "api/Worker/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "getById",
+    "RelativePath": "api/Worker/BackgroundEvaluation/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "createWorkerBckgEvaluation",
+    "RelativePath": "api/Worker/BackgroundEvaluation/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateWorkerBckgEvaluationDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "deleteWorkerBckgEvaluation",
+    "RelativePath": "api/Worker/BackgroundEvaluation/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "getAll",
+    "RelativePath": "api/Worker/BackgroundEvaluation/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "updateWorkerBckgEvaluation",
+    "RelativePath": "api/Worker/BackgroundEvaluation/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateWorkerBckgEvaluationDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBackgroundEvaluationController",
+    "Method": "getAllValidationTypes",
+    "RelativePath": "api/Worker/BackgroundEvaluation/ValidationTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "getWorkerContractStatusType",
+    "RelativePath": "api/Worker/Contract/Types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "createWorkerDetails",
+    "RelativePath": "api/Worker/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateWorkerDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "deleteWorkerDetails",
+    "RelativePath": "api/Worker/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "getWorkerFullDetailsById",
+    "RelativePath": "api/Worker/Details/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEquipmentCostController",
+    "Method": "getById",
+    "RelativePath": "api/Worker/EquipmentCost/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEquipmentCostController",
+    "Method": "createWorkerEquipmentCost",
+    "RelativePath": "api/Worker/EquipmentCost/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateWorkerEquipmentCostDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEquipmentCostController",
+    "Method": "deleteWorkerEquipmentCost",
+    "RelativePath": "api/Worker/EquipmentCost/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEquipmentCostController",
+    "Method": "getAll",
+    "RelativePath": "api/Worker/EquipmentCost/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEquipmentCostController",
+    "Method": "updateWorkerEquipmentCost",
+    "RelativePath": "api/Worker/EquipmentCost/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateWorkerEquipmentCostDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEvaluationController",
+    "Method": "getById",
+    "RelativePath": "api/Worker/Evaluation/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEvaluationController",
+    "Method": "createWorkerEvaluation",
+    "RelativePath": "api/Worker/Evaluation/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateWorkerEvaluationDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEvaluationController",
+    "Method": "deleteWorkerEvaluation",
+    "RelativePath": "api/Worker/Evaluation/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEvaluationController",
+    "Method": "getAll",
+    "RelativePath": "api/Worker/Evaluation/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerEvaluationController",
+    "Method": "updateWorkerEvaluation",
+    "RelativePath": "api/Worker/Evaluation/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateWorkerEvaluationDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "getById",
+    "RelativePath": "api/Worker/Extension/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "createWorkerExtension",
+    "RelativePath": "api/Worker/Extension/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.CreateWorkerExtensionDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "deleteWorkerExtension",
+    "RelativePath": "api/Worker/Extension/Delete/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "getAll",
+    "RelativePath": "api/Worker/Extension/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "workerId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "getAllExtensionStatusTypes",
+    "RelativePath": "api/Worker/Extension/StatusTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerExtensionController",
+    "Method": "updateWorkerExtension",
+    "RelativePath": "api/Worker/Extension/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateWorkerExtensionDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "getAll",
+    "RelativePath": "api/Worker/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "jobId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "jobOrderId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerPayrollController",
+    "Method": "getWorkerListByClientIDToDownloadFormat",
+    "RelativePath": "api/Worker/Payroll/Download",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ClientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "PayrollMonth",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PayrollYear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerPayrollController",
+    "Method": "UploadWorkerPayrollDetails",
+    "RelativePath": "api/Worker/Payroll/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "getWorkerStatusType",
+    "RelativePath": "api/Worker/StatusTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerController",
+    "Method": "updateWorkerDetails",
+    "RelativePath": "api/Worker/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.UpdateWorkerDetailsDtoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tapfin.Api.Controllers.WorkerBIController",
+    "Method": "getAllBIData",
+    "RelativePath": "api/WorkerBI/Details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Tapfin.Api.Models.DTO.WorkerBIDetailsRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

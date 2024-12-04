@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cQChDQGCSVLmNR8MSpL3/AoW0HgSeMCH8GyN927FAg8=",
+  "Source": "Tapfin.Api",
+  "BasePath": "_content/Tapfin.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
